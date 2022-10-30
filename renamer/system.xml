@@ -125,6 +125,7 @@
     <romset name="quizdai2" pcm="1" altname="Quiz Meitantei Neo &amp; Geo: Quiz Daisousa Sen part 2" publisher="SNK" year="1992"/>
     <romset name="quizdais" pcm="1" altname="Quiz Daisousa Sen: The Last Count Down" publisher="SNK" year="1991"/>
     <romset name="quizdask" pcm="1" altname="Quiz Salibtamjeong: The Last Count Down (Korean localized Quiz Daisousa Sen)" publisher="SNK" year="1991"/>
+    <romset name="quizdaisk" pcm="1" altname="Quiz Salibtamjeong: The Last Count Down (Korean localized Quiz Daisousa Sen)" publisher="SNK" year="1991"/>
     <romset name="quizkof" pcm="1" altname="Quiz King of Fighters" publisher="Saurus" year="1995"/>
     <romset name="quizkofk" pcm="1" altname="Quiz King of Fighters (Korean release)" publisher="Saurus / Viccom" year="1995"/>
     <romset name="rbff1" pcm="1" altname="Real Bout Fatal Fury" altnamej="Real Bout Garou Densetsu" publisher="SNK" year="1995"/>
@@ -174,7 +175,8 @@
     <romset name="tws96" pcm="1" altname="Tecmo World Soccer '96" publisher="Tecmo" year="1996"/>
     <romset name="twsoc96" pcm="1" altname="Tecmo World Soccer '96" publisher="Tecmo" year="1996"/>
     <romset name="viewpoin" pcm="1" altname="Viewpoint" publisher="Sammy / Aicom" year="1992"/>
-    <!-- Black Jack slot machine, not a game. Requires custom sram board, not implemented in fpga <romset name="vliner,vlinero" pcm="0" altname="V-Liner" publisher="Dyna / BrezzaSoft" year="2001"/> -->
+    <!-- Black Jack slot machine, not a game. Requires custom sram board, not implemented in fpga --> <romset name="vliner" pcm="0" altname="V-Liner" publisher="Dyna / BrezzaSoft" year="2001"/>
+    <romset name="vlinero" pcm="0" altname="V-Liner" publisher="Dyna / BrezzaSoft" year="2001"/>
     <romset name="wakuwak7" pcm="1" altname="Waku Waku 7" publisher="Sunsoft" year="1996"/>
     <romset name="wh1" pcm="1" altname="World Heroes" publisher="Alpha Denshi Co." year="1992"/>
     <romset name="wh1h" pcm="1" altname="World Heroes (ALH-005)" publisher="Alpha Denshi Co." year="1992"/>
@@ -188,7 +190,7 @@
     <romset name="zintrckb" pcm="1" altname="ZinTricK" altnamej="Oshidashi Zentrix" publisher="Hack / Bootleg" year="1996"/>
     <romset name="zintrkcd" pcm="1" altname="ZinTricK (CD conversion)" altnamej="Oshidashi Zentrix (CD conversion)" publisher="ADK / Razoola" year="1996"/>
     <romset name="zupapa" pcm="1" altname="Zupapa!" publisher="Video System Co." year="2001"/>
-    <!--  -->
+    
     <romset name="abyssal" pcm="1" altname="Abyssal Infants" publisher="Kako Eimon" year="2021">
         <file name="052-p1.p1" index="4"/>
         <file name="052-s1.s1" index="8"/>
@@ -266,7 +268,7 @@
     <romset name="shocktro" pcm="1" altname="Shock Troopers" publisher="Saurus" year="1997" ram="1"/>
     <romset name="shocktroa" pcm="1" altname="Shock Troopers (set 2)" publisher="Saurus" year="1997" ram="1"/>
     <romset name="shcktroa" pcm="1" altname="Shock Troopers (set 2)" publisher="Saurus" year="1997" ram="1"/>
-    <!--  -->
+    
     <romset name="xenocrisis" vromb_offset="0x1000000" altname="Xeno Crisis" publisher="Bitmap Bureau Ltd" year="2021"/>
     <!-- ROMs requiring 96MB SDRAM (32MB+64MB) -->
     <romset name="garou" cmc="1" sma="2" pcm="1" altname="Garou: Mark of the Wolves" publisher="SNK" year="1999" ram="2"/>
@@ -381,7 +383,7 @@
     <romset name="samsh5fe" pcm="1" altname="Samurai Shodown V Special Final Edition" altnamej="Samurai Shodown Zero Special Final Edition" publisher="Yuki Enterprise / SNK Playmore" year="2004" ram="2"/>
     <romset name="samsh5pf" pcm="1" altname="Samurai Shodown V Perfect" altnamej="Samurai Spirits Zero Perfect" publisher="SNK" year="2020" ram="2"/>
     <!-- ROMs requiring 128MB SDRAM (2x64MB) -->
-    <!--  -->
+  
     <romset name="badapple" pcm="1" altname="Bad Apple Demo" publisher="BEY" year="2017" ram="3">
         <file name="bada-p1.bin" index="4"/>
         <file name="bada-s1.bin" index="8"/>
@@ -390,4 +392,6 @@
         <file name="bada-m1.bin" index="9"/>
         <file name="bada-v1.bin" index="16"/>
     </romset>
+    <!-- Monitor.neo -->
+    <romset name="monitor" altname="Monitor - TestROM" />
 </romsets>

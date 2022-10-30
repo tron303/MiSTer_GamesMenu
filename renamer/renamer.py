@@ -11,6 +11,7 @@ for files in os.listdir():
         altname = romset.attrib["altname"] 
         if filename == romname:
            import re
-           altname = re.sub("\!|\'|\?|\/|\'","", altname)
+           altname = re.sub('[\/:*?!"<>|]'," -", altname)
            filename_new = str(altname + '.mgl')
            os.rename (filename_old,filename_new)
+           print("Renaming: " + filename_old + " ---> " + filename_new)
