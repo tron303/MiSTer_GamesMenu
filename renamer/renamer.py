@@ -13,5 +13,21 @@ for files in os.listdir():
            import re
            altname = re.sub('[\/:*?!"<>|]'," -", altname)
            filename_new = str(altname + '.mgl')
-           os.rename (filename_old,filename_new)
+           #lower_case_romname = str(romname).lower()
+           #print(filename,romname,altname)
+           #print(altname.lower())
+           print('MMMM   MMMMM   WWWWW   WWWMM   MMMMM   WWWWW')
+           if altname.lower() != filename.lower():
+               print("#*************#")
+               print(filename,altname)
+               print(filename_old,filename_new)
+               os.rename (filename_old,filename_new)
+           else:
+               print("*############*#") 
+               filename_old1 = filename_old + "1"
+               print(filename_old,filename_old1)
+               print(filename_old1,filename_new)
+               os.rename (filename_old,filename_old1) 
+               os.rename (filename_old1,filename_new) 
            print("Renaming: " + filename_old + " ---> " + filename_new)
+           print("=====================================")

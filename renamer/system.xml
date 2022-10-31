@@ -116,7 +116,6 @@
     <romset name="pbobblenb" pcm="1" altname="Puzzle Bobble (bootleg)" altnamej="Bust-A-Move (bootleg)" publisher="Bootleg" year="1994"/>
     <romset name="pgoal" pcm="1" altname="Pleasure Goal" publisher="Saurus" year="1996"/>
     <romset name="pbbblenb" pcm="1" altname="Puzzle Bobble (bootleg)" altnamej="Bust-A-Move (bootleg)" publisher="Bootleg" year="1994"/>
-    <romset name="pgoal" pcm="1" altname="Pleasure Goal" publisher="Saurus" year="1996"/>
     <romset name="pnyaa" pcm="1" altname="Pochi and Nyaa" altnamej="Pochi to Nyaa" publisher="Aiky / Taito" year="2003"/>
     <romset name="popbounc" pcm="1" altname="Pop 'n Bounce" altnamej="Gapporin" publisher="Video System Co." year="1997"/>
     <romset name="pspikes2" pcm="1" altname="Power Spikes II" publisher="Video System Co." year="1994"/>
@@ -189,8 +188,7 @@
     <romset name="zedblade" pcm="1" altname="Zed Blade" altnamej="Operation Ragnarok" publisher="NMK" year="1994"/>
     <romset name="zintrckb" pcm="1" altname="ZinTricK" altnamej="Oshidashi Zentrix" publisher="Hack / Bootleg" year="1996"/>
     <romset name="zintrkcd" pcm="1" altname="ZinTricK (CD conversion)" altnamej="Oshidashi Zentrix (CD conversion)" publisher="ADK / Razoola" year="1996"/>
-    <romset name="zupapa" pcm="1" altname="Zupapa!" publisher="Video System Co." year="2001"/>
-    
+    <romset name="zupapa" pcm="1" altname="Zupapa!" publisher="Video System Co." year="2001"/> 
     <romset name="abyssal" pcm="1" altname="Abyssal Infants" publisher="Kako Eimon" year="2021">
         <file name="052-p1.p1" index="4"/>
         <file name="052-s1.s1" index="8"/>
